@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(233, 235, 238);
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-container {
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-container > a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    width: 200px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+  }
+  
+  .nav-container > a:hover {
+    background-color: bisque;
+  }
+  
+  .nav-link {
+  }
+  
+  main {
+    display: flex;
+    margin: 5%;
+    background-color: antiquewhite;
+  }
