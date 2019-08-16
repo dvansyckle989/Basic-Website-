@@ -8,13 +8,13 @@ body {
     flex-direction: column;
   }
   
-  .nav-container {
+  .logo {
     margin: 10px 0 0 0;
     display: flex;
     justify-content: space-around;
   }
   
-  .nav-container > a {
+  .about {
     text-decoration: none;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,15 +26,19 @@ body {
     border-radius: 20px;
   }
   
-  .nav-container > a:hover {
+  .gallery {
     background-color: bisque;
   }
   
-  .nav-link {
+  .link {
   }
   
   main {
     display: flex;
     margin: 5%;
     background-color: antiquewhite;
+  }
+  img {
+    width: 300px;
+    height: 300px;
   }
